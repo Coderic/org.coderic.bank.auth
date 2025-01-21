@@ -15,7 +15,7 @@
 	<packaging>war</packaging>
 	<name>Authentication for Bank Transactions</name>
 	<description>Authentication for Bank Transactions</description>
-	<url>https://github.com/CodericBusiness/org.coderic.bank.auth</url>
+	<url>https://coderic.org/org.coderic.bank.auth</url>
 	<organization>
 		<name>Coderic</name>
 		<url>https://coderic.org/</url>
@@ -29,18 +29,17 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:https://github.com/CodericBusiness/org.coderic.bank.auth.git</connection>
-		<developerConnection>${project.scm.connection}</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/CodericBusiness/org.coderic.bank.auth.git</url>
+		<connection>scm:git:https://github.com/Coderic/org.coderic.bank.auth.git</connection>
+		<developerConnection>scm:git:git@github.com:Coderic/org.coderic.bank.auth.git</developerConnection>
+		<url>http://github.com/Coderic/org.coderic.bank.auth/tree/master</url>
 	</scm>
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/CodericBusiness/org.coderic.bank.auth/actions</url>
+		<url>https://github.com/Coderic/org.coderic.bank.auth/actions</url>
 	</ciManagement>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/CodericBusiness/org.coderic.bank.auth/issues</url>
+		<url>https://github.com/Coderic/org.coderic.bank.auth/issues</url>
 	</issueManagement>
 	<developers>
 		<developer>
@@ -137,7 +136,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
-				<version>4.0.0-M16</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
